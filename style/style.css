@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+.title{
+    background-color: #003265;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.figure{
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.figure:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #f9f9f9;
+}
+.caps{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.caption{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: normal;
+}
+.judulberita{
+    color: black;
+}
+.box{
+    color: white;
+    background: #FBBB00;
+    height: 160px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.box:hover{
+    opacity: 0.5;
+}
+.paraprodi{
+    color: black;
+    text-align: left;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+.prodititle{
+    text-align: center;
+}
+.grouppic{
+    width: 100%;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .liat{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.lab{
+    width: 100%;
+}
+.judulutama{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.paradul{
+    color: white;
+}
+@media (max-width: 1028px){
+    .judulutama{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    }
+    .paradul{
+        color: white;
+        text-align: center;
+    }
+    .email{
+        text-align: center;
+        position: relative;
+        left: 26%;
+    }
+}
+.logofuter{
+    width: 100%;
+}
+.footer{
+    background: #f9f9f9;
+}
+.futerbar{
+    margin-left: auto;
+    color: black;
+}
+.liat{
+    color: black;
+    text-decoration: none;
+}
+.liat:hover{
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
